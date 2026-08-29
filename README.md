@@ -19,6 +19,23 @@ The key objectives of this analysis are to:
 - Quantify the revenue and estimated CLTV impact of customer churn.
 - Segment customers based on churn risk to support retention prioritization.
 
+##  Dataset
+
+The project uses a raw OTT customer dataset containing subscription, customer, churn, complaint, and revenue-related information.
+
+The dataset includes:
+
+- Customer and subscription details
+- Subscription start and cancellation dates
+- Subscription type, plan type, and contract type
+- Monthly charges and customer lifetime value (CLTV)
+- Customer complaints and escalation information
+- Customer demographic and location details
+
+The original raw dataset is stored separately in the `data/` folder to preserve the source data and support reproducibility.
+
+**Dataset file:** `data/customer_churn_data_raw.xlsx`
+
 ##  Tech Stack
 
 - **Python**
